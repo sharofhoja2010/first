@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {    
+    background-color: chocolate;
+    border: 25px solid white;
+}
+.main-heading {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+.block {
+    width: 270px;
+    height: 200px;
+    background-color: black;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.block1 {
+    width: 270px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+.ali {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 75px;
+    font-size: 50px;
+}
